@@ -18,7 +18,7 @@ Esto debería arrojar errores de dependencias no encontradas, y habrá que insta
 ## npm install nombre_de_la_dependencia@latest
 
 ** NOTA: Si hay un error de la dependencia @babel/plugin-proposal-private-property-in-object, entonces usar el siguiente comando:
-## npm install @babel/plugin-proposal-private-property-in-object --save.
+## npm install @babel/plugin-proposal-private-property-in-object --save. **
 El --save registrará la dependencia y su versión en package.json.
 
 Al instalar todas las dependencias faltantes, la página web debería cargar sin errores.
