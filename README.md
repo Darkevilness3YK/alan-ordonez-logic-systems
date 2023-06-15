@@ -22,7 +22,9 @@ Esto debería arrojar errores de dependencias no encontradas, y habrá que insta
 El --save registrará la dependencia y su versión en package.json.
 
 Al instalar todas las dependencias faltantes, la página web debería cargar sin errores.
-
+___
+___
+___
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
