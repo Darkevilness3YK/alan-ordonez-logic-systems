@@ -11,6 +11,7 @@ import UserDetails from './components/UserDetails';
 // Data imports //
 //import usersJson from './public/data/users.json';
 
+// Esta función permite que, siempre que se cambie de página, se empiece a ver desde la parte superior de esta.
 function ScrollToTop() {
   const location = useLocation();
 
