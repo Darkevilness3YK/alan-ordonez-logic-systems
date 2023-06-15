@@ -1,3 +1,9 @@
+# IMPORTANTE:
+
+Puesto que no subí la carpeta node_modules, esta se tiene que crear con el comando npx create-react-app.
+Además, es necesario instalar otras dependencias, como mui/materials (el resto lo dice package.json).
+Eso debería evitar errores.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
