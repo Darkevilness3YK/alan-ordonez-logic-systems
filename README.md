@@ -1,5 +1,7 @@
 # IMPORTANTE:
 
+El componente principal es MyApp.js y el que se encarga de renderizarlo es index.js.
+
 La siguiente información puede ser obvia, pero para asegurar, esta es la forma con la que hice funcionar mi página web bajando los archivos de este repositorio.
 
 ## 1. Crear un proyecto de react con el siguiente comando:
