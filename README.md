@@ -1,8 +1,26 @@
 # IMPORTANTE:
 
-Puesto que no subí la carpeta node_modules, esta se tiene que crear con el comando npx create-react-app.
-Además, es necesario instalar otras dependencias, como mui/materials (el resto lo dice package.json).
-Eso debería evitar errores.
+La siguiente información puede ser obvia, pero para asegurar, esta es la forma con la que hice funcionar mi página web bajando los archivos de este repositorio.
+
+##1. Crear un proyecto de react con el siguiente comando:
+###npx create-react-app alan-ordonez-logic-systems
+
+##2. Clonar el repositorio en una carpeta local.
+Para ello, colocar el siguiente comando:
+###git clone https://github.com/Darkevilness3YK/alan-ordonez-logic-systems
+
+##3. Copiar todos los archivos y directorios de la carpeta donde se hizo el git clone a la carpeta donde se creó el proyecto de react con npx create-react-app.
+
+##4. En la carpeta del proyecto de react, instalar las dependencias necesarias, las cuales están en package.json.
+También es posible identificarlas al colocar el siguiente comando:
+###npm start
+Esto debería arrojar errores de dependencias no encontradas, y habrá que instalarlas una por una usando siguiente comando:
+##npm install nombre_de_la_dependencia@latest
+NOTA: si hay un error de la dependencia @babel/plugin-proposal-private-property-in-object, entonces usar el siguiente comando:
+##npm install @babel/plugin-proposal-private-property-in-object --save.
+El --save registrará la dependencia y su versión en package.json.
+
+Al instalar todas las dependencias faltantes, la página web debería cargar sin errores.
 
 # Getting Started with Create React App
 
