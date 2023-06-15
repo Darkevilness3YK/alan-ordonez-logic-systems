@@ -5,11 +5,14 @@ La siguiente información puede ser obvia, pero para asegurar, esta es la forma 
 ## 1. Crear un proyecto de react con el siguiente comando:
 ### npx create-react-app alan-ordonez-logic-systems
 
+
 ## 2. Clonar el repositorio en una carpeta local.
 Para ello, colocar el siguiente comando:
 ### git clone https://github.com/Darkevilness3YK/alan-ordonez-logic-systems
 
+
 ## 3. Copiar todos los archivos y directorios de la carpeta donde se hizo el git clone a la carpeta donde se creó el proyecto de react con npx create-react-app.
+
 
 ## 4. En la carpeta del proyecto de react, instalar las dependencias necesarias, las cuales están en package.json.
 También es posible identificarlas al colocar el siguiente comando:
